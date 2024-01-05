@@ -1,0 +1,150 @@
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 1280px; height: 3100px; background-color: rgb(255, 255, 255); position: absolute;" data-browser-width="1670" data-browser-height="2630" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;]}" data-max-aview="1" data-max-abutton="1">
+    <div data-base="AView" data-class="HeaderView" class="AView-Style" style="width: 100%; height: 267px; position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: absolute; left: 0px; top: 30px; height: 46px; background-color: rgba(0, 0, 0, 0);">
+            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 96px; height: 46px; position: absolute; left: 0px; top: 0px; text-align: left; vertical-align: baseline;">
+                <table cellpadding="0" cellspacing="0" class="">
+                    <colgroup>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" style="text-align: center; vertical-align: middle; padding: 10px;" class="">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 26px; height: 26px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-position: -335px -81px; background-size: 433px 412px;" data-background-option="custom"></label>
+                            </td>
+                            <td rowspan="2" style="text-align: center; vertical-align: middle; padding: 7px;" class="">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-position: -295px -177px; background-size: 433px 412px; margin-top: 0px; margin-left: 0px;" data-background-option="custom"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="display: none;"></td>
+                            <td style="display: none;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 96px; height: auto; position: absolute; top: 0px; text-align: left; vertical-align: baseline; right: 0px;">
+                <table cellpadding="0" cellspacing="0" class="">
+                    <colgroup>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" style="padding: 10px; text-align: center; vertical-align: middle;" class="">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 26px; height: 26px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-size: 433px 412px; background-position: -335px -189px;" data-background-option="custom"></label>
+                            </td>
+                            <td rowspan="2" style="padding: 10px; text-align: center; vertical-align: middle;" class="">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 26px; height: 26px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-size: 433px 412px; margin-top: 0px; background-position: -335px -135px; margin-left: 0px;" data-background-option="custom"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="display: none;"></td>
+                            <td style="display: none;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div data-base="AView" data-class="ContentView" class="AView-Style" style="width: 100%; height: 703px; position: absolute; left: 0px; top: 267px; background-color: rgba(0, 0, 0, 0);">
+        <div data-base="AView" data-class="RIghtVIew" class="AView-Style" style="width: 420px; height: 1110px; position: absolute; left: 850px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+            <div data-base="AView" data-class="LoginContainer" class="AView-Style" style="height: 180px; position: absolute; top: 0px; width: 420px; padding: 21px 20px 18px; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-color: rgb(227, 229, 232); border-radius: 16px; right: 0px;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 380px; height: 20px; position: absolute; left: 20px; top: 30px; font-size: 14.7px; text-align: center;">네이버를 더 안전하고 편리하게 이용하세요</label>
+                <div data-base="AView" data-class="LoginBtn" class="AView-Style before_dark" style="height: 53px; position: absolute; top: 62.5px; width: 320px; left: 50px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(3, 199, 90);" data-style="before_dark" data-listener-click="MainView:onAView1Click">
+                    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 166px; height: 30px; position: absolute; margin-left: auto; margin-right: auto; left: 70px; top: 11.5px; vertical-align: middle;">
+                        <table cellpadding="0" cellspacing="0" class="">
+                            <colgroup>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2" class="" style="text-align: center; vertical-align: middle;"></td>
+                                    <td rowspan="2" class="" style="text-align: center; vertical-align: middle;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 72px; height: 14px; position: relative; left: calc(50% - 36px); top: calc(50% - 7px); margin-left: -100px; margin-top: -10px; font-size: 14.7px; text-align: center; vertical-align: baseline; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-position: -120px -166px; background-size: 433px 412px;" data-background-option="custom" data-center-x="true" data-center-y="true"></label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 42.91px; height: 20px; position: relative; left: calc(50% - 21.5px); top: calc(50% - 10px); margin-left: -10px; margin-top: -5px; font-size: 14.3px;" data-center-x="true" data-center-y="true">로그인</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="display: none;"></td>
+                                    <td style="display: none;"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div data-base="AView" data-class="AdContainer1" class="AView-Style" style="width: 420px; height: 200px; position: absolute; left: 0px; top: 190px;"></div>
+            <div data-base="AView" data-class="WeatherContainer" class="AView-Style" style="width: 420px; height: 200px; position: absolute; left: 0px; top: 400px;"></div>
+            <div data-base="AView" data-class="StockContainer" class="AView-Style" style="width: 420px; height: 200px; position: absolute; left: 0px; top: 610px;"></div>
+            <div data-base="AView" data-class="WidgetContainer" class="AView-Style" style="width: 420px; height: 200px; position: absolute; left: 0px; top: 820px;"></div>
+            <div data-base="AView" data-class="BannerContainer" class="AView-Style" style="width: 420px; height: 60px; position: absolute; left: 0px; top: 1030px;"></div>
+        </div>
+        <div data-base="AView" data-class="LeftView" class="AView-Style" style="width: 830px; height: 1450px; position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 830px; height: 130px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;Assets/image/776a6310ad46f41c74cc_20240104112341211.jpg&quot;); background-size: contain; border-radius: 13px; border-width: 1px; border-color: rgb(227, 229, 232);" data-background-option="fit"></label>
+            <div data-base="AView" data-class="Section1" class="AView-Style" style="width: 830px; height: 450px; position: absolute; left: 0px; top: 150px; padding-top: 16px;"></div>
+            <div data-base="AView" data-class="Section2" class="AView-Style" style="width: 830px; height: 450px; position: absolute; left: 0px; top: 620px; padding-top: 16px;"></div>
+            <div data-base="AView" data-class="Section3" class="AView-Style" style="width: 830px; height: 350px; position: absolute; left: 0px; top: 1080px;"></div>
+        </div>
+    </div>
+    <div data-base="AView" data-class="FooterView" class="AView-Style" style="width: 100%; height: 450px; position: absolute; left: 0px; top: 1710px;">
+        <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 161px; position: absolute; left: 0px; top: 0px;">
+            <table cellpadding="0" cellspacing="0" class="">
+                <colgroup>
+                    <col>
+                    <col>
+                    <col width="">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td class="">
+                            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                                <table cellpadding="0" cellspacing="0" class="">
+                                    <colgroup>
+                                        <col width="160px">
+                                        <col width="">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="">
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 160px; height: 100px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/image/33e75577e7b3a917c08b_20240103131237276.png&quot;); background-size: contain; background-repeat: no-repeat; margin-top: 0px; margin-left: 0px;" data-background-option="fit"></label>
+                                            </td>
+                                            <td class="" style="padding: 5px 3px 0px 18px;">
+                                                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 250px; height: 100px; position: relative; left: 0px; top: 0px; padding: 5px 3px 0px 18px;">
+                                                    <table cellpadding="0" cellspacing="0">
+                                                        <colgroup>
+                                                            <col>
+                                                            <col>
+                                                        </colgroup>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td rowspan="2" colspan="2" class="">
+                                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 0px; top: 30px; margin-top: 0px; margin-left: 0px; display: block;">쥬니버스쿨 이벤트</label>
+                                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 0px; top: 70px; display: block;">수학부터 코딩까지!</label>
+                                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 0px; top: 90px; margin-top: 6px; display: block;">3-7세 아이라면 광고없는</label>
+                                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 0px; top: 0px; margin-top: 80px; display: block;">무료 앱 바로 다운받기</label>
+                                                                </td>
+                                                                <td style="display: none;"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="display: none;"></td>
+                                                                <td style="display: none;"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                        <td class=""></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
