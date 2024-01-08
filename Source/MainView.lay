@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 1280px; height: auto; background-color: rgb(255, 255, 255); position: relative;" data-browser-width="2200" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AFlexLayout&quot;]}" data-max-aview="1" data-max-abutton="1" data-browser-height="3200">
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 1280px; height: auto; background-color: rgb(255, 255, 255); position: relative; display: inline-block; margin-left: auto; margin-right: auto;" data-browser-width="2200" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AFlexLayout&quot;]}" data-max-aview="1" data-max-abutton="1" data-browser-height="3200">
     <div data-base="AView" data-class="HeaderView" class="AView-Style" style="width: 100%; height: 267px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; max-width: 1280px;">
         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: absolute; left: 0px; top: 20px; height: 46px; background-color: rgba(0, 0, 0, 0);">
             <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 96px; height: 46px; position: absolute; left: 0px; top: 0px; text-align: left; vertical-align: baseline;">
@@ -317,8 +317,6 @@
                             </tr>
                             <tr>
                                 <td class="" style="padding: 18px 20px 1px; height: 394px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 522px; height: 375px; position: relative; left: 0px; top: 0px; display: inline-block; margin-right: 20px;"></div>
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 248px; height: 375px; position: relative; left: 0px; top: 0px; display: inline-block;"></div>
                                 </td>
                             </tr>
                             <tr>
@@ -330,7 +328,7 @@
             </div>
             <div data-base="AView" data-class="Section3" class="AView-Style" style="width: 830px; height: 853px; position: relative; left: 0px; top: 0px; margin-top: 16px; margin-left: 0px; margin-bottom: 16px;"></div>
         </div>
-        <div data-base="AView" data-class="RIghtVIew" class="AView-Style" style="width: 420px; height: auto; position: relative; top: 0px; background-color: rgba(0, 0, 0, 0); display: inline-block; right: 0px; margin-left: 0px; margin-top: 0px;">
+        <div data-base="AView" data-class="RIghtVIew" class="AView-Style" style="width: 420px; height: auto; position: absolute; top: 0px; background-color: rgba(0, 0, 0, 0); display: inline-block; margin-left: 0px; margin-top: 0px; right: 0px;">
             <div data-base="AView" data-class="LoginContainer" class="AView-Style" style="height: 164px; position: relative; top: 0px; width: 420px; padding: 21px 20px 18px; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-color: rgb(227, 229, 232); border-radius: 16px; right: 0px;">
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 380px; height: 20px; position: static; left: 20px; top: 30px; font-size: 14.7px; text-align: center;">네이버를 더 안전하고 편리하게 이용하세요</label>
                 <div data-base="AView" data-class="LoginBtn" class="AView-Style before_dark" style="height: 53px; position: static; top: 62.5px; width: 100%; left: 0px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(3, 199, 90); margin-top: 13px; vertical-align: middle; padding-top: 17px; padding-bottom: 17px; border-radius: 4px; overflow: hidden; z-index: 9999;" data-style="before_dark" data-listener-click="MainView:onAView1Click">
@@ -498,7 +496,7 @@
                             </table>
                         </div>
                     </div>
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 186px; height: 192px; position: relative; top: 0px; display: inline-block; margin-left: 10px; right: 0px; background-color: rgb(255, 255, 255); border-radius: 8px; margin-top: 10px;"></div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 186px; height: 192px; position: relative; top: 0px; display: inline-block; right: 0px; background-color: rgb(255, 255, 255); border-radius: 8px; margin-top: 10px;"></div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 186px; height: 192px; position: relative; left: 0px; top: 0px; display: inline-block; padding: 18px 18px 12px; margin-left: 0px; margin-top: 10px; border-radius: 8px; background-color: rgb(255, 255, 255);">
                         <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
                             <table cellpadding="0" cellspacing="0" class="">
@@ -525,7 +523,7 @@
                             </table>
                         </div>
                     </div>
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 186px; height: 192px; position: relative; top: 0px; display: inline-block; right: 0px; margin-left: 10px; margin-top: 10px; border-radius: 8px; background-color: rgb(255, 255, 255);"></div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 186px; height: 192px; position: relative; top: 0px; display: inline-block; right: 0px; margin-top: 10px; border-radius: 8px; background-color: rgb(255, 255, 255);"></div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 384px; height: 278px; position: static; left: 0px; top: 0px; margin-top: 10px; background-color: rgb(255, 255, 255); border-radius: 8px;"></div>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 63px; position: relative; left: 0px; top: 0px; margin-bottom: -15px; text-align: center; padding-top: 21px; padding-bottom: 17px; background-color: rgba(0, 0, 0, 0);">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: calc(50% - 12.5px); text-align: left; background-color: rgba(0, 0, 0, 0);" data-center-y="true">
