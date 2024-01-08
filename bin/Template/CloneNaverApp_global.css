@@ -42,6 +42,7 @@
 
 .before_dark
 {
+	overflow: hidden !important;
 	cursor: pointer !important;
 }
 
@@ -53,7 +54,58 @@
 	top: 0 !important;
 	width: 100% !important;
 	height: 100% !important;
-	background-color: black !important;
+	background-color: gray !important;
 	opacity: 0.3 !important;
+}
+
+.hover_image
+{
+}
+
+.text_before
+{
+	
+}
+
+.text_before::before {
+	content: "" !important;
+    display: inline-block !important;
+    width: 1px !important;
+    height: 12px !important;
+    background-color: #d3d5d7
+    background-color: var(--color_dot_divider) !important;
+    margin: 0 16px !important;
+    vertical-align: -1px !important;
+}
+
+.before_content_slash
+{
+	
+}
+
+.before_content_slash {
+	content: "/"
+    display: inline-block !important;
+    width: 1px !important;
+    height: 12px !important;
+    background-color: #d3d5d7
+    background-color: var(--color_dot_divider) !important;
+    margin: 0 16px !important;
+    vertical-align: -1px !important;
+}
+
+.img_SizeUp
+{
+	transition: all 0.3s ease-out !important;
+}
+
+.img_SizeUp:hover {
+	cursor: pointer !important;
+	transform: scale(1.1) !important;
+}
+
+.radius
+{
+	border-radius: 10px !important;
 }
 

@@ -4,6 +4,11 @@
     "_global_style_": "\n._global_style_\n{\n\tfont-size: 12px;\n\tfont-family: courier;\n\ttext-size-adjust: none;\n\n}\n",
     "global_resp": "\n.global_resp\n{\n\t/* global_resp 는 body 에 추가된 클래스 입니다. */\n\n}\n\n/*가로모드*/\n@media screen and (orientation: landscape)\n{\n\t.global_resp\n\t{\n\t}\n}\n\n/*ios*/\n@supports (-webkit-overflow-scrolling: touch)\n{\n}\n\n/*tablet*/\n@media screen and (min-width:641px)\n{\n}\n",
     "hover_text": ".hover_text\n{\n\tcursor: pointer;\n}\n\n.hover_text:hover {\n\ttext-decoration: underline;\n}\n\n",
-    "before_dark": ".before_dark\n{\n\tcursor: pointer;\n}\n\n.before_dark:hover:before {\n\tcontent: \"\";\n\tdisplay: block;\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: black;\n\topacity: 0.3;\n}\n\n\n"
+    "before_dark": ".before_dark\n{\n\toverflow: hidden;\n\tcursor: pointer;\n}\n\n.before_dark:hover:before {\n\tcontent: \"\";\n\tdisplay: block;\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: gray;\n\topacity: 0.3;\n}\n\n\n",
+    "hover_image": ".hover_image\n{\n}\n\n",
+    "text_before": ".text_before\n{\n\t\n}\n\n.text_before::before {\n\tcontent: \"\";\n    display: inline-block;\n    width: 1px;\n    height: 12px;\n    background-color: #d3d5d7\n    background-color: var(--color_dot_divider);\n    margin: 0 16px;\n    vertical-align: -1px;\n}\n\n",
+    "before_content_slash": ".before_content_slash\n{\n\t\n}\n\n.before_content_slash {\n\tcontent: \"/\"\n    display: inline-block;\n    width: 1px;\n    height: 12px;\n    background-color: #d3d5d7\n    background-color: var(--color_dot_divider);\n    margin: 0 16px;\n    vertical-align: -1px;\n}\n\n",
+    "img_SizeUp": ".img_SizeUp\n{\n\ttransition: all 0.3s ease-out;\n}\n\n.img_SizeUp:hover {\n\tcursor: pointer;\n\ttransform: scale(1.1);\n}\n\n",
+    "radius": ".radius\n{\n\tborder-radius: 10px;\n}\n\n"
   }
 }
