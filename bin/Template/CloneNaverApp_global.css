@@ -74,7 +74,7 @@
     height: 12px !important;
     background-color: #d3d5d7
     background-color: var(--color_dot_divider) !important;
-    margin: 0 16px !important;
+    margin: 0 10px !important;
     vertical-align: -1px !important;
 }
 
@@ -107,5 +107,13 @@
 .radius
 {
 	border-radius: 10px !important;
+}
+
+.hover_cursor
+{
+}
+
+.hover_cursor {
+	cursor: pointer !important;
 }
 
