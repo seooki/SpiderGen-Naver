@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 1280px; height: auto; background-color: rgb(255, 255, 255); position: static; display: inline-block; margin-left: auto; margin-right: auto;" data-browser-width="2200" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AFlexLayout&quot;]}" data-max-aview="1" data-max-abutton="1" data-browser-height="3200">
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 1280px; height: auto; background-color: rgb(255, 255, 255); position: static; display: inline-block; margin-left: auto; margin-right: auto;" data-browser-width="2200" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;ALabel&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;]}" data-max-aview="1" data-max-abutton="1" data-browser-height="3200">
     <div data-base="AView" data-class="HeaderView" class="AView-Style" style="width: 100%; height: 267px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; max-width: 1280px;">
         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: absolute; left: 0px; top: 20px; height: 46px; background-color: rgba(0, 0, 0, 0);">
             <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 96px; height: 46px; position: absolute; left: 0px; top: 0px; text-align: left; vertical-align: baseline;">
@@ -165,7 +165,29 @@
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 78px; top: 28px;">경제</label>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 50px; position: relative; left: 0px; top: 0px; margin-left: 20px; margin-right: 20px; display: inline-block; padding: 12px 20px; margin-top: 0px;"></div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 50px; position: relative; left: 0px; top: 0px; margin-left: 20px; margin-right: 20px; display: inline-block; padding: 12px 20px; margin-top: 0px;">
+                    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; margin-left: 0px;">
+                        <table cellpadding="0" cellspacing="0" class="">
+                            <colgroup>
+                                <col>
+                                <col>
+                                <col width="">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 85.5px; height: 100%; position: relative; left: 0px; top: 0px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: static; left: 0px; top: 0px; letter-spacing: -1px; line-height: 26px;">전체언론사</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 9px; height: 6px; position: static; left: 94px; top: -12px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-repeat: no-repeat; background-position: -154px -201px; background-size: 433px 412px; margin-left: 5px; margin-top: 10px;" data-background-option="custom">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 224px; position: relative; left: 0px; top: 0px; margin: 18px 20px; background-color: rgba(0, 0, 0, 0); border-radius: 10px;">
                     <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style radius" style="width: 100%; height: 224px; position: absolute; left: 0px; top: 0px; border-radius: 10px;" data-style="radius">
                         <table cellpadding="0" cellspacing="0" class="">
@@ -188,33 +210,13 @@
                                     <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-background-option="fit" data-center-y="true" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-background-option="fit" data-center-y="true" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="" style="padding: 18px 0px; border-left: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
-                                    </td>
-                                    <td style="padding: 18px 0px; border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-top: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
                                     </td>
                                 </tr>
@@ -231,10 +233,30 @@
                                     <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);" class="">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="" style="padding: 18px 0px; border-left: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
+                                    </td>
+                                    <td style="padding: 18px 0px; border-right: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-center-y="true" data-background-option="fit" data-center-x="true"></label>
                                     </td>
                                 </tr>
@@ -254,7 +276,7 @@
                                     <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-background-option="fit" data-center-y="true" data-center-x="true"></label>
                                     </td>
-                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);">
+                                    <td style="padding: 18px 0px; border-bottom: 1px solid rgb(227, 229, 232); border-right: 1px solid rgb(227, 229, 232);" class="">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 52.5px; height: 20px; position: relative; left: calc(50% - 26.5px); top: calc(50% - 10px); background-image: url(&quot;Assets/image/www.naver.com/011.png&quot;); background-size: contain; display: block;" data-background-option="fit" data-center-y="true" data-center-x="true"></label>
                                     </td>
                                 </tr>
@@ -492,8 +514,75 @@
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style hover_cursor" style="width: auto; height: auto; position: static; left: 0px; top: 0px; vertical-align: middle; line-height: 56px; font-weight: bold; font-size: 13px;" data-style="hover_cursor">펼쳐보기</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style hover_cursor" style="width: auto; height: auto; position: static; left: 493px; top: 12px; line-height: 56px; font-size: 18px; font-weight: bold; color: rgb(168, 76, 48);" data-style="hover_cursor">+</label>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 489px; position: relative; left: 0px; top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 409px; height: 116px; position: relative; left: 0px; top: 0px;"></div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 489px; position: relative; left: 0px; top: 0px; margin-top: 0px; background-color: rgba(0, 0, 0, 0); padding-top: 20px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 409px; height: 116px; position: relative; left: 0px; top: 0px; display: inline-block; padding-left: 28px; padding-bottom: 16px; margin-top: 0px; background-color: rgba(0, 0, 0, 0);">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">
+                                <table cellpadding="0" cellspacing="0" class="">
+                                    <colgroup>
+                                        <col width="154px">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2" class="">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/ddd/ffdc0c65-3f35-48c7-98e2-e0fecf282788.jpg&quot;);"></label>
+                                                </div>
+                                            </td>
+                                            <td rowspan="2" class="">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; left: 0px; top: 0px; margin-left: 14px;">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">테스트테스트테스트테스트테스트테스트테스트테스트테스트</label>
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: static; left: 0px; top: 7px; margin-top: 4px; line-height: 20px;">
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 20px; height: 20px; position: static; left: 2px; top: calc(50% - 10px); background-image: url(&quot;Assets/image/33e75577e7b3a917c08b_20240103131237276.png&quot;); margin-left: 0px;" data-center-y="true">&nbsp;</label>
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: static; left: 0px; top: 0px; display: inline; line-height: 20px; margin-left: 5px;">Label</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="display: none;"></td>
+                                            <td style="display: none;"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 409px; height: 116px; position: relative; left: 0px; top: 0px; display: inline-block; padding-left: 28px; padding-bottom: 16px; margin-top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">
+                                <table cellpadding="0" cellspacing="0" class="">
+                                    <colgroup>
+                                        <col width="154px">
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2" class="">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/ddd/ffdc0c65-3f35-48c7-98e2-e0fecf282788.jpg&quot;);"></label>
+                                                </div>
+                                            </td>
+                                            <td rowspan="2" class="">
+                                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; left: 0px; top: 0px; margin-left: 14px;">
+                                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">테스트테스트테스트테스트테스트테스트테스트테스트테스트</label>
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: static; left: 0px; top: 7px; margin-top: 4px; line-height: 20px;">
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 20px; height: 20px; position: static; left: 2px; top: calc(50% - 10px); background-image: url(&quot;Assets/image/33e75577e7b3a917c08b_20240103131237276.png&quot;); margin-left: 0px;" data-center-y="true">&nbsp;</label>
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: static; left: 0px; top: 0px; display: inline; line-height: 20px; margin-left: 5px;">Label</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="display: none;"></td>
+                                            <td style="display: none;"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -514,62 +603,44 @@
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 100%; position: static; left: 0px; top: 0px; background-image: url(&quot;Assets/image/6cfd72b87c0ff8160438_20240108122336207.jpg&quot;); background-size: 100% 100%; background-repeat: no-repeat;" data-background-option="stretch"></label>
             </div>
             <div data-base="AView" data-class="WeatherContainer" class="AView-Style" style="width: 420px; height: 236px; position: relative; left: 0px; top: 0px; padding-left: 18px; padding-right: 18px; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 6px; margin-top: 10px;">
-                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 42px; position: relative; left: 0px; top: 0px; padding-top: 6px; padding-bottom: 6px; margin-top: 0px; border-bottom: 1px solid rgb(227, 229, 232);">
+                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
                     <table cellpadding="0" cellspacing="0" class="">
                         <colgroup>
-                            <col width="40px">
-                            <col width="81.27px">
-                            <col width="">
+                            <col>
+                            <col>
                         </colgroup>
                         <tbody>
                             <tr>
-                                <td class="">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">날씨</label>
-                                </td>
-                                <td class="">
-                                    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 81.27px; height: 26px; position: relative; left: 0px; top: 0px; margin-left: 0px;">
-                                        <table cellpadding="0" cellspacing="0" class="">
-                                            <colgroup>
-                                                <col width="12px">
-                                                <col>
-                                            </colgroup>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="">
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 12px; height: 12px; position: relative; left: 0px; top: calc(50% - 6px); background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-position: -144px -400px; background-size: 433px 412px; text-align: center;" data-background-option="custom" data-center-y="true"></label>
-                                                    </td>
-                                                    <td class="">
-                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">예보 비교</label>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <td colspan="2" style="height: 52px;" class="">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; padding-top: 6px; padding-bottom: 6px; background-color: rgba(0, 0, 0, 0);">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                                                <div style="position: relative; box-sizing: border-box;">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; left: 0px; top: 0px; margin-left: -1.99999px; background-color: rgba(0, 0, 0, 0);">
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 100%; position: relative; top: 0px; line-height: 38px; left: 0px; padding-right: 7px; margin-left: 0px;">날씨</label>
+                                                    </div>
+                                                </div>
+                                                <div style="position: relative; box-sizing: border-box;" class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 70px; height: 100%; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; background-color: rgba(0, 0, 0, 0);">
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 70px; height: 19px; position: relative; left: 0px; top: calc(50% - 13px); padding-right: 10px; padding-left: 7px; margin-left: 0px; margin-top: 0px; text-align: center; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 15px;">
+                                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 12px; height: 12px; position: relative; left: 0px; top: 0px; margin-top: 6px; background-image: url(&quot;Assets/image/sp_main-d5b6c236.png&quot;); background-repeat: no-repeat; background-position: -144px -400px; background-size: 433px 412px; line-height: 19px; margin-right: 2px;" data-background-option="custom"></label>
+                                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 30px; height: 100%; position: relative; top: 0px; font-size: 11.55px; letter-spacing: -2px; display: inline; right: 0px;">예보비교</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="position: relative; box-sizing: border-box;" class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; top: 0px; text-align: right; margin-left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0);">
+                                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 104px; height: 38px; position: relative; left: 0px; top: 0px; margin-top: 0px; margin-right: 0px; margin-left: 163px; line-height: 38px;">인천시 작전동</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </td>
-                                <td class="">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; top: 10px; right: 0px;">서울시 신수동</label>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 184px; position: static; left: 0px; bottom: 0px;">
-                    <table cellpadding="0" cellspacing="0" class="">
-                        <colgroup>
-                            <col>
-                            <col>
-                        </colgroup>
-                        <tbody>
-                            <tr>
-                                <td rowspan="2" class="">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 180px; height: 145px; position: relative; left: calc(50% - 90px); top: calc(50% - 72.5px); background-image: url(&quot;Assets/image/캡처.PNG&quot;); background-repeat: no-repeat; background-size: contain;" data-background-option="fit" data-center-x="true" data-center-y="true"></label>
-                                </td>
-                                <td rowspan="2" class="">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 180px; height: 143px; position: relative; left: calc(50% - 90px); top: calc(50% - 71.5px); background-image: url(&quot;Assets/image/캡처1.PNG&quot;); background-size: contain; margin-left: 0px; margin-top: 0px; background-repeat: no-repeat;" data-background-option="fit" data-center-x="true" data-center-y="true"></label>
-                                </td>
+                                <td style="display: none; height: 52px;"></td>
                             </tr>
                             <tr>
-                                <td style="display: none;"></td>
+                                <td colspan="2" class=""></td>
                                 <td style="display: none;"></td>
                             </tr>
                         </tbody>

@@ -117,3 +117,8 @@
 	cursor: pointer !important;
 }
 
+.rotate
+{
+	transform: rotate(180deg) !important;
+}
+
