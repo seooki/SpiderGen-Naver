@@ -97,7 +97,7 @@
 
 .img_SizeUp
 {
-	transition: all 0.3s ease-out !important;
+	transition: all 0.1s ease-out !important;
 }
 
 .img_SizeUp:hover {
@@ -144,5 +144,10 @@
     border-top: 1px solid #e8effb !important;
     background: -o-radial-gradient(bottom, circle, #e8effb 1px, transparent 0) top/1px 21px !important;
     background: radial-gradient(circle at bottom, #e8effb 1px, transparent 0) top/1px 21px !important;
+}
+
+.rmv_border_focus
+{
+	border: 0 !important;
 }
 
