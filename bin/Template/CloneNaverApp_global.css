@@ -112,9 +112,10 @@
 
 .hover_cursor
 {
+	
 }
-
-.hover_cursor {
+.hover_cursor:hover
+{
 	cursor: pointer !important;
 }
 
@@ -149,5 +150,90 @@
 .rmv_border_focus
 {
 	border: 0 !important;
+}
+
+.RightSearchBtn_hover
+{
+	
+}
+
+
+.RightSearchBtn_hover:hover {
+	background-color: #031f5f !important;
+	width: 131.91px !important;
+	border-radius: 20px !important;
+}
+
+.searchBar
+{
+	outline: none !important;
+	font-wiehgt: bold !important;
+}
+
+.focus_searchBar::placeholder {
+	color: #e3e5e8 !important;
+	font-weight: normal !important;
+}
+
+.searchBar
+{
+	outline: none !important;
+	font-wiehgt: bold !important;
+}
+
+.focus_searchBar::placeholder {
+	color: #e3e5e8 !important;
+	font-weight: normal !important;
+}
+
+.searchBar_focus
+{
+	outline: none !important;
+	background-color: black
+}
+
+.before_background
+{
+}
+
+.before_background:hover
+{
+	background-color: #e7eced !important;
+	border-radius: 50%
+}
+
+.searchBar_shadow
+{
+}
+
+.searchBar_shadow:hover
+{
+	box-shadow: 0 1px 3px 1px rgba(0,0,0,0.1) !important;
+}
+
+.text_decoration_underbar
+{
+}
+
+.text_decoration_underbar:hover .ALabel {
+	text-decoration: underline !important;
+}
+
+.hover_grid
+{
+
+}
+
+.hover_grid:hover {
+	text-decoration: underline !important;
+}
+
+.transition
+{
+	transition: all 0.5s !important;
+}
+
+.grid_hover
+{
 }
 

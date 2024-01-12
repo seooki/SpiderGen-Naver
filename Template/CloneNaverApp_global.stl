@@ -10,10 +10,20 @@
     "before_content_slash": ".before_content_slash\n{\n\t\n}\n\n.before_content_slash {\n\tcontent: \"/\"\n    display: inline-block;\n    width: 1px;\n    height: 12px;\n    background-color: #d3d5d7\n    background-color: var(--color_dot_divider);\n    margin: 0 16px;\n    vertical-align: -1px;\n}\n\n",
     "img_SizeUp": ".img_SizeUp\n{\n\ttransition: all 0.1s ease-out;\n}\n\n.img_SizeUp:hover {\n\tcursor: pointer;\n\ttransform: scale(1.1);\n}\n\n",
     "radius": ".radius\n{\n\tborder-radius: 10px;\n}\n\n",
-    "hover_cursor": ".hover_cursor\n{\n}\n\n.hover_cursor {\n\tcursor: pointer;\n}\n\n",
+    "hover_cursor": ".hover_cursor\n{\n\t\n}\n.hover_cursor:hover\n{\n\tcursor: pointer;\n}\n\n\n",
     "rotate": ".rotate\n{\n\ttransform: rotate(180deg);\n}\n\n",
     "float_left": ".float_left\n{\n\tfloat: left;\n}\n\n",
     "line": ".line\n{\n\t\n}\n\n.line:before {\n\tcontent: \"\";\n    display: block;\n    position: absolute;\n    right: 0;\n\ttop: -5px;\n    bottom: 0;\n    left: 0;\n    border-top: 1px solid #e8effb;\n    background: -o-radial-gradient(bottom, circle, #e8effb 1px, transparent 0) top/1px 21px;\n    background: radial-gradient(circle at bottom, #e8effb 1px, transparent 0) top/1px 21px;\n}\n\n",
-    "rmv_border_focus": ".rmv_border_focus\n{\n\tborder: 0;\n}\n\n"
+    "rmv_border_focus": ".rmv_border_focus\n{\n\tborder: 0;\n}\n\n",
+    "RightSearchBtn_hover": ".RightSearchBtn_hover\n{\n\t\n}\n\n\n.RightSearchBtn_hover:hover {\n\tbackground-color: #031f5f;\n\twidth: 131.91px;\n\tborder-radius: 20px;\n}\n\n\n\n\n\n",
+    "searchBar": ".searchBar\n{\n\toutline: none;\n\tfont-wiehgt: bold;\n}\n\n.focus_searchBar::placeholder {\n\tcolor: #e3e5e8;\n\tfont-weight: normal;\n}\n\n\n\n\n\n\n\n\n",
+    "focus_searchBar": ".searchBar\n{\n\toutline: none;\n\tfont-wiehgt: bold;\n}\n\n.focus_searchBar::placeholder {\n\tcolor: #e3e5e8;\n\tfont-weight: normal;\n}\n\n\n",
+    "searchBar_focus": ".searchBar_focus\n{\n\toutline: none;\n\tbackground-color: black\n}\n\n\n\n\n\n\n",
+    "before_background": ".before_background\n{\n}\n\n.before_background:hover\n{\n\tbackground-color: #e7eced;\n\tborder-radius: 50%\n}\n\n",
+    "searchBar_shadow": ".searchBar_shadow\n{\n}\n\n.searchBar_shadow:hover\n{\n\tbox-shadow: 0 1px 3px 1px rgba(0,0,0,0.1);\n}\n",
+    "text_decoration_underbar": ".text_decoration_underbar\n{\n}\n\n.text_decoration_underbar:hover .ALabel {\n\ttext-decoration: underline;\n}\n\n",
+    "hover_grid": ".hover_grid\n{\n\n}\n\n.hover_grid:hover {\n\ttext-decoration: underline;\n}\n\n\n\n",
+    "transition": ".transition\n{\n\ttransition: all 0.5s;\n}\n\n",
+    "grid_hover": ".grid_hover\r\n{\r\n}\r\n\r\n"
   }
 }

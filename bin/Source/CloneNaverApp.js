@@ -33,6 +33,8 @@ CloneNaverApp.prototype.unitTest = function(unitUrl)
 	AApplication.prototype.unitTest.call(this, unitUrl);
 };
 
+
+
 var theApp = null;
 
 AApplication.start = function()
