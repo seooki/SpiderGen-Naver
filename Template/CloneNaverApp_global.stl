@@ -24,6 +24,7 @@
     "text_decoration_underbar": ".text_decoration_underbar\n{\n}\n\n.text_decoration_underbar:hover .ALabel {\n\ttext-decoration: underline;\n}\n\n",
     "hover_grid": ".hover_grid\n{\n\n}\n\n.hover_grid:hover {\n\ttext-decoration: underline;\n}\n\n\n\n",
     "transition": ".transition\n{\n\ttransition: all 0.5s;\n}\n\n",
-    "grid_hover": ".grid_hover\r\n{\r\n}\r\n\r\n"
+    "grid_hover": ".grid_hover\n{\n}\n\n",
+    "grid_news": ".grid_news\n{\n}\n\n.grid_news:hover:after{\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: #2868f2;\n\tcontent:\"구독|기사보기\";\n\ttext-align: center;\n\tpadding-top: 18px;\n\tbox-sizing: border-box;\n\tcolor: white;\n}\n\n"
   }
 }

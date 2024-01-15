@@ -237,3 +237,21 @@
 {
 }
 
+.grid_news
+{
+}
+
+.grid_news:hover:after{
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	background-color: #2868f2 !important;
+	content:"구독|기사보기" !important;
+	text-align: center !important;
+	padding-top: 18px !important;
+	box-sizing: border-box !important;
+	color: white !important;
+}
+
