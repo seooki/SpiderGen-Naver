@@ -138,9 +138,7 @@ const getDate = () => {
 	dt.innerText = result;
 };
 
-window.addEventListener('load', () => {
-	getDate();
-});
+getDate();
 
 MainView.prototype.onALabel1Click = function(comp, info, e)
 {
@@ -179,31 +177,35 @@ MainView.prototype.onAView14Click = function(comp, info, e)
 };
 
 let pageNum = 1;
+const newsPageCount = document.querySelector(".newsPageCount");
+newsPageCount.innerText = pageNum;
 
 MainView.prototype.onAView15Click = function(comp, info, e)
 {
 
 	console.log(pageNum);
-	if(pageNum < 1) {
+	if(pageNum <= 1) {
 		pageNum = 1;
 	} else {
 		pageNum--;
 	}
 	
 	pageView();
+	newsPageCount.innerText = pageNum;
 };
 
 MainView.prototype.onAView16Click = function(comp, info, e)
 {
 	
 	console.log(pageNum);
-	if(pageNum > 4 ) {
+	if(pageNum >= 4 ) {
 		pageNum = 4;
 	} else {
 		pageNum++;
 	}
 	
 	pageView();
+	newsPageCount.innerText = pageNum;
 };
 
 const pageView = () => {
@@ -235,25 +237,6 @@ const pageView = () => {
 		page04.style.display = "block";
 	}
 };
-
-const subPage = document.querySelector(".third_sub_page");
-const carPage = document.querySelector(".third_car_page");
-
-
-//sub_page
-MainView.prototype.onALabel4Click = function(comp, info, e)
-{
-	subPage.style.display = 'block';
-	carPage.style.display = 'none';
-};
-
-//car_page
-MainView.prototype.onALabel5Click = function(comp, info, e)
-{
-	carPage.style.display = 'block';
-	subPage.style.display = 'none';
-};
-
 
 
 let num;
@@ -294,18 +277,26 @@ const thirdRightBtn = document.querySelector(".third_right_btn");
 const leftValue = 790;
 let moveValue = 0;
 let count = 0;
-//오른쪽버튼
 
+
+
+//오른쪽버튼
 MainView.prototype.onAView18Click = function(comp, info, e)
 {
-	if(count >= 2) {
+	
+	count++;
+
+	if(count > 3) {
 		count = 2;
-		thirdRightBtn.style.display = 'none'
+	} else if(count == 2) {
+		thirdRightBtn.style.display = 'none';
+		thirdLeftBtn.style.display = 'block';
 	} else {
-		count++;
-		console.log(count)
-		moveValue = leftValue*count;
+		thirdLeftBtn.style.display = 'block';
 	}
+	
+	moveValue = leftValue*count;	
+	
 	
 	for(let i=0; i<thirdSlide.length; i++) {
 		thirdSlide[i].style.left = `-${moveValue}px`;
@@ -314,19 +305,251 @@ MainView.prototype.onAView18Click = function(comp, info, e)
 	
 };
 
+//왼쪽버튼
 MainView.prototype.onAView19Click = function(comp, info, e)
 {
-	if(count <= 0) {
+
+	count--;
+
+	if(count < 0) {
 		count = 0;
-		
+	} else if(count == 0) {
+		thirdLeftBtn.style.display = 'none';
+		thirdRightBtn.style.display = 'block';
 	} else {
-		count--;
-		console.log(count)
-		moveValue = leftValue*count;
-			
+		thirdRightBtn.style.display = 'block';	
 	}
+	
+	moveValue = leftValue*count;
 	
 	for(let i=0; i<thirdSlide.length; i++) {
 		thirdSlide[i].style.left = `-${moveValue}px`;
 	}
+};
+
+const slideContainer = document.querySelector(".slideContainer");
+const slideObj = slideContainer.children;
+
+
+
+for(let i=0; i<slideObj.length; i++) {
+	slideObj[i].style.left = (120*i) + 'px';
+	console.log(slideObj[i].offsetLeft);
+}
+
+
+let interval = setInterval(createSlideShow, 3000);
+
+function createSlideShow(){
+	for(let i=0; i<slideObj.length; i++) {
+		if(slideObj[i].offsetLeft <= -120) {
+			slideObj[i].classList.remove('transition');
+			slideObj[i].style.left = (slideObj[i].offsetLeft + 840) + 'px';
+		}
+		
+		let leftValue = slideObj[i].offsetLeft;
+		let moveValue = leftValue - 120*3;
+		slideObj[i].style.left = moveValue + 'px';
+		slideObj[i].classList.add('transition');
+		
+		if(slideObj[i].offsetLeft <= -120) {
+			slideObj[i].classList.remove('transition');
+			slideObj[i].style.left = (slideObj[i].offsetLeft + 840) + 'px';
+		}
+	}
+}
+
+MainView.prototype.onAView20Actionenter = function(comp, info, e)
+{
+	clearInterval(interval);
+};
+
+MainView.prototype.onAView21Actionleave = function(comp, info, e)
+{
+	interval = setInterval(createSlideShow, 3000)
+};	
+
+const createThirdSubPageArr = () => {
+	
+	let arr = []
+	
+	for(let i=1; i<=10; i++) {
+		let selector = `.third_sub_page_${i}`;
+		arr.push(document.querySelector(selector))
+	}
+	return arr;
+}
+
+const pageArr = createThirdSubPageArr();
+
+
+const selectThirdSubPage = (param) => {
+	
+	for(let i=0; i<10; i++) {
+		if(i == param) {
+		
+			pageArr[i].style.display = 'block';
+		} else {
+			pageArr[i].style.display = 'none';
+		}
+	}
+	
+}
+
+const createThirdSubPageTextArr = () => {
+	
+	let arr = []
+	
+	for(let i=1; i<=10; i++) {
+		let selector = `.third_page_nav_text_${i}`;
+		arr.push(document.querySelector(selector))
+		
+	}
+	return arr;
+}
+
+const pageTextArr = createThirdSubPageTextArr();
+
+
+const selectThirdSubPageText = (param) => {
+	
+	for(let i=0; i<10; i++) {
+		if(i == param) {
+			
+			pageTextArr[i].style.color = 'black';
+		} else {
+			pageTextArr[i].style.color = 'rgba(8, 8, 8, 0.5)';
+		}
+	}
+	
+}
+
+//sub_page
+MainView.prototype.onALabel4Click = function(comp, info, e)
+{
+	selectThirdSubPage(0);
+	selectThirdSubPageText(0);
+};
+//car_page
+MainView.prototype.onALabel5Click = function(comp, info, e)
+{
+	selectThirdSubPage(1);
+	selectThirdSubPageText(1);
+};
+
+MainView.prototype.onALabel8Click = function(comp, info, e)
+{
+	selectThirdSubPage(2);
+	selectThirdSubPageText(2);
+};
+
+MainView.prototype.onALabel9Click = function(comp, info, e)
+{
+	selectThirdSubPage(3);
+	selectThirdSubPageText(3);
+};
+
+MainView.prototype.onALabel10Click = function(comp, info, e)
+{
+	selectThirdSubPage(4);
+	selectThirdSubPageText(4);
+};
+
+MainView.prototype.onALabel11Click = function(comp, info, e)
+{
+	selectThirdSubPage(5);
+	selectThirdSubPageText(5);
+};
+
+MainView.prototype.onALabel12Click = function(comp, info, e)
+{
+	selectThirdSubPage(6);
+	selectThirdSubPageText(6);
+};
+
+MainView.prototype.onALabel13Click = function(comp, info, e)
+{
+	selectThirdSubPage(7);
+	selectThirdSubPageText(7);
+};
+
+MainView.prototype.onALabel14Click = function(comp, info, e)
+{
+	selectThirdSubPage(8);
+	selectThirdSubPageText(8);
+};
+
+MainView.prototype.onALabel15Click = function(comp, info, e)
+{
+	selectThirdSubPage(9);
+	selectThirdSubPageText(9);
+};
+
+
+
+const shoppingPage = document.querySelector('.shopping_page');
+const mansPage = document.querySelector('.mans_page');
+const oneplusPage = document.querySelector('.oneplus_page');
+const livePage = document.querySelector('.live_page');
+
+const shoppingTitle = document.querySelector('.shopping_title');
+const mansTitle = document.querySelector('.mans_title');
+const oneplusTitle = document.querySelector('.oneplus_title');
+const liveTitle = document.querySelector('.live_title');
+
+
+
+MainView.prototype.onALabel16Click = function(comp, info, e)
+{
+	shoppingPage.style.display = 'block';
+	mansPage.style.display = 'none';
+	oneplusPage.style.display = 'none';
+	livePage.style.display = 'none';
+
+	shoppingTitle.style.color = 'black';
+	mansTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	oneplusTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	liveTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+};
+
+MainView.prototype.onALabel17Click = function(comp, info, e)
+{
+	shoppingPage.style.display = 'none';
+	mansPage.style.display = 'block';
+	oneplusPage.style.display = 'none';
+	livePage.style.display = 'none';
+
+	shoppingTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	mansTitle.style.color = 'black';
+	oneplusTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	liveTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+
+};
+
+MainView.prototype.onALabel18Click = function(comp, info, e)
+{
+	shoppingPage.style.display = 'none';
+	mansPage.style.display = 'none';
+	oneplusPage.style.display = 'block';
+	livePage.style.display = 'none';
+
+	shoppingTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	mansTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	oneplusTitle.style.color = 'black';
+	liveTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+
+};
+
+MainView.prototype.onALabel19Click = function(comp, info, e)
+{
+	shoppingPage.style.display = 'none';
+	mansPage.style.display = 'none';
+	oneplusPage.style.display = 'none';
+	livePage.style.display = 'block';
+
+	shoppingTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	mansTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	oneplusTitle.style.color = 'rgba(8, 8, 8, 0.5)';
+	liveTitle.style.color = 'black';
+
 };
