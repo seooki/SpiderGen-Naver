@@ -48,7 +48,9 @@ function MainView*onRightSearchBtnActionenter(comp, info, e)
 function MainView*onAView4Actionenter(comp, info, e)
 {
 	const text = document.querySelector('.engText');
-	text.innerText = "가나다라마바사아자차카타파하";
+	text.innerText = "가나다라마바사아자차카타파 하늘이 보우하사";
+	text.style.color = '#606060';
+	text.style.fontSize = '13.65' + 'px';
 };
 
 
@@ -149,13 +151,11 @@ function MainView*onAView11Actionleave(comp, info, e)
 {
 	const text = document.querySelector('.engText');
 	text.innerText = "Where do you want to do on vacation this year?";
+	text.style.color = 'black';
+	text.style.fontSize = '17.85' + 'px';
 };
 
-function MainView*onAView12Actionenter(comp, info, e)
-{
-	const view = document.querySelector('.hover_View');
-	view.style.display = 'block';
-};
+
 
 function MainView*onAView13Click(comp, info, e)
 {
@@ -183,7 +183,6 @@ newsPageCount.innerText = pageNum;
 function MainView*onAView15Click(comp, info, e)
 {
 
-	console.log(pageNum);
 	if(pageNum <= 1) {
 		pageNum = 1;
 	} else {
@@ -197,7 +196,6 @@ function MainView*onAView15Click(comp, info, e)
 function MainView*onAView16Click(comp, info, e)
 {
 	
-	console.log(pageNum);
 	if(pageNum >= 4 ) {
 		pageNum = 4;
 	} else {
@@ -239,36 +237,6 @@ const pageView = () => {
 };
 
 
-let num;
-
-const newsPage = document.querySelector(".first_news_page");
-const setPage = document.querySelector(".first_set_page");
-
-//뉴스스탠드
-function MainView*onALabel6Click(comp, info, e)
-{
-	num = 1;
-	onChangePage();
-};
-//언론사편집
-function MainView*onALabel7Click(comp, info, e)
-{
-	num = 2;
-	onChangePage();
-};
-
-const onChangePage = () => {
-	switch(num) {
-		case 1: 
-			newsPage.style.display = 'block';
-			setPage.style.display = 'none';
-			break;
-		case 2: 
-			newsPage.style.display = 'none';
-			setPage.style.display = 'block';
-			break;
-	}
-};
 
 const thirdSlide = document.querySelectorAll(".third_slideContainer > div");
 const thirdLeftBtn = document.querySelector(".third_left_btn");
@@ -334,7 +302,6 @@ const slideObj = slideContainer.children;
 
 for(let i=0; i<slideObj.length; i++) {
 	slideObj[i].style.left = (120*i) + 'px';
-	console.log(slideObj[i].offsetLeft);
 }
 
 
@@ -552,4 +519,132 @@ function MainView*onALabel19Click(comp, info, e)
 	oneplusTitle.style.color = 'rgba(8, 8, 8, 0.5)';
 	liveTitle.style.color = 'black';
 
+};
+
+
+let num;
+
+const createFirstSubPageArr = () => {
+	let arr = [];
+	
+	for(let i=1; i<6; i++) {
+		const selector = `.first_sub_page_${i}`
+		arr.push(document.querySelector(selector))
+	}
+	
+	return arr;
+}
+
+const firstSubPage = createFirstSubPageArr();
+
+
+const createFirstSubPageTitleArr = () => {
+	let arr = [];
+	
+	for(let i=1; i<6; i++) {
+		const selector = `.first_sub_page_title_${i}`
+		arr.push(document.querySelector(selector))
+	}
+	
+	return arr;
+}
+
+const firstSubPageTitle = createFirstSubPageTitleArr();
+
+
+//뉴스스탠드
+
+//언론사편집
+function MainView*onALabel7Click(comp, info, e)
+{
+	num = 2;
+	onChangePage(num);
+};
+
+function MainView*onALabel20Click(comp, info, e)
+{
+	num = 3;
+	onChangePage(num);
+};
+
+function MainView*onALabel21Click(comp, info, e)
+{
+	num = 4;
+	onChangePage(num);
+};
+
+function MainView*onALabel22Click(comp, info, e)
+{
+	num = 5;
+	onChangePage(num);
+};
+
+const onChangePage = (param) => {
+	for(let i=0; i<firstSubPage.length; i++) {
+		if(param-1 == i) {
+			firstSubPage[i].style.display = 'block';
+			firstSubPageTitle[i].style.color = 'black';
+		} else {
+			firstSubPage[i].style.display = 'none';
+			firstSubPageTitle[i].style.color = 'rgba(8, 8, 8, 0.5)';
+		}
+	}
+};
+
+const firstSlideObj = document.querySelectorAll('.first_slide_container > label');
+
+const createTop = () => {
+	for(let i=0; i<firstSlideObj.length; i++) {
+		firstSlideObj[i].style.top = 20*i +'px';
+		firstSlideObj[i].classList.add('transition');
+	}
+};
+
+createTop();
+
+let intervalFirst = setInterval(slideFirst, 3000);
+
+function slideFirst(){
+	for(let i=0; i<firstSlideObj.length; i++) {
+	
+		let topValue = firstSlideObj[i].offsetTop;
+		
+		if(firstSlideObj[i].offsetTop < 0){
+			firstSlideObj[i].classList.remove('transition');
+			firstSlideObj[i].style.top = (topValue + 40) + 'px';	
+		} else {
+			firstSlideObj[i].classList.add('transition');
+		}
+	
+		
+		firstSlideObj[i].style.top = (topValue - 20) + 'px';
+		
+		if(firstSlideObj[i].offsetTop < 0){
+			firstSlideObj[i].classList.remove('transition');
+			firstSlideObj[i].style.top = (topValue + 40) + 'px';	
+		} else {
+			firstSlideObj[i].classList.add('transition');
+		}
+	}
+}
+
+
+
+
+
+function MainView*onAView22Actionenter(comp, info, e)
+{
+	clearInterval(intervalFirst);
+};
+
+function MainView*onAView23Actionleave(comp, info, e)
+{
+	intervalFirst = setInterval(slideFirst, 3000);
+};
+
+function MainView*onALabel6Click(comp, info, e)
+{
+	num = 1;
+	onChangePage(num);
+	createTop();
 };
